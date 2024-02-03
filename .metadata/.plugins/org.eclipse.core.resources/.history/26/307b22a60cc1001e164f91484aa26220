@@ -1,0 +1,20 @@
+package com.collection;
+
+public class ReversoftheString {
+
+	public static String ReversoftheString(String s1) {
+		String s = "";
+		for (int i = s1.length() - 1; i >= 0; i--) {
+			s = s + s1.charAt(i);
+		}
+		return s;
+	}
+
+	public static void main(String[] args) {
+		String s = "Hello I'm Java Developer";
+		String s1 = ReversoftheString("Swap");
+		
+		System.out.println(s1);
+	}
+
+}

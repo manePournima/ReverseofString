@@ -1,0 +1,17 @@
+package com.collection;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+
+		String s = "Pournima";
+		System.out.println(s.charAt(3));// it will the index value String
+		
+		String s1 = "";
+		String s2 =""+s.charAt(3);
+		System.out.println(s2);
+		
+		
+	}
+
+}
